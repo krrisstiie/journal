@@ -9,30 +9,44 @@ import SwiftUI
 
 struct prompt: View {
 
-    @State private var response = ""
+    @State private var response1 = ""
     @State private var response2 = ""
     @State private var response3 = ""
+    @State private var response4 = ""
+    @State private var response5 = ""
 
     var body: some View {
         VStack {
         ScrollView() {
             
-            Text("Describe my ideal stress-free day. What does it look like, and who else is there?")
+            Text("What caused my stress? What can I do to make myself feel more calm and better?")
                 .multilineTextAlignment(.center)
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                TextField("Type your response here", text: $response)
+            TextField("Type your response here", text: $response1, axis: .vertical)
                 .padding(/*@START_MENU_TOKEN@*/.all, 110.0/*@END_MENU_TOKEN@*/)
                 
             Text("Are there any triggers that amplify my stress? How can I address or avoid them?")
                 .multilineTextAlignment(.center)
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                TextField("Type your response here", text: $response2)
+            TextField("Type your response here", text: $response2, axis: .vertical)
                 .padding(/*@START_MENU_TOKEN@*/.all, 110.0/*@END_MENU_TOKEN@*/)
             
-            Text("Are there any triggers that amplify my stress? How can I address or avoid them?")
+            Text("How can I set boundaries in my life to better manage my sources of stress?")
                 .multilineTextAlignment(.center)
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                TextField("Type your response here", text: $response2)
+            TextField("Type your response here", text: $response3, axis: .vertical)
+                .padding(/*@START_MENU_TOKEN@*/.all, 110.0/*@END_MENU_TOKEN@*/)
+            
+            Text("Write a letter to me, listing all the qualities and accomplishments I’m most proud of")
+                .multilineTextAlignment(.center)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            TextField("Type your response here", text: $response4, axis: .vertical)
+                .padding(/*@START_MENU_TOKEN@*/.all, 110.0/*@END_MENU_TOKEN@*/)
+
+            Text("Describe my ideal stress-free day. What does it look like, and who else is there?")
+                .multilineTextAlignment(.center)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            TextField("Type your response here", text: $response5, axis: .vertical)
                 .padding(/*@START_MENU_TOKEN@*/.all, 110.0/*@END_MENU_TOKEN@*/)
         }
         .padding(.bottom)
