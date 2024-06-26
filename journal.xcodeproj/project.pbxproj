@@ -11,6 +11,8 @@
 		BD68E0672C2CA5BA00EBD61E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E0662C2CA5BA00EBD61E /* ContentView.swift */; };
 		BD68E0692C2CA5BC00EBD61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD68E0682C2CA5BC00EBD61E /* Assets.xcassets */; };
 		BD68E06C2C2CA5BC00EBD61E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD68E06B2C2CA5BC00EBD61E /* Preview Assets.xcassets */; };
+		BD68E0732C2CA95B00EBD61E /* prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E0722C2CA95B00EBD61E /* prompt.swift */; };
+		BD68E0752C2CA9A600EBD61E /* freeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E0742C2CA9A600EBD61E /* freeResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD68E0662C2CA5BA00EBD61E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD68E0682C2CA5BC00EBD61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD68E06B2C2CA5BC00EBD61E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD68E0722C2CA95B00EBD61E /* prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prompt.swift; sourceTree = "<group>"; };
+		BD68E0742C2CA9A600EBD61E /* freeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BD68E0642C2CA5BA00EBD61E /* journalApp.swift */,
 				BD68E0662C2CA5BA00EBD61E /* ContentView.swift */,
+				BD68E0742C2CA9A600EBD61E /* freeResponse.swift */,
+				BD68E0722C2CA95B00EBD61E /* prompt.swift */,
 				BD68E0682C2CA5BC00EBD61E /* Assets.xcassets */,
 				BD68E06A2C2CA5BC00EBD61E /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BD68E0672C2CA5BA00EBD61E /* ContentView.swift in Sources */,
 				BD68E0652C2CA5BA00EBD61E /* journalApp.swift in Sources */,
+				BD68E0752C2CA9A600EBD61E /* freeResponse.swift in Sources */,
+				BD68E0732C2CA95B00EBD61E /* prompt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
