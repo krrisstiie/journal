@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		BD68E0612C2CA5BA00EBD61E /* journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = journal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD68E0642C2CA5BA00EBD61E /* journalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalApp.swift; sourceTree = "<group>"; };
-		BD68E0662C2CA5BA00EBD61E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD68E0662C2CA5BA00EBD61E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		BD68E0682C2CA5BC00EBD61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD68E06B2C2CA5BC00EBD61E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD68E0722C2CA95B00EBD61E /* prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prompt.swift; sourceTree = "<group>"; wrapsLines = 1; };
